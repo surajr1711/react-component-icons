@@ -1,19 +1,16 @@
 import React from 'react'
 import './social.scss'
-import linkedin from '../../assets/images/linkedin.svg'
-import github from '../../assets/images/github.svg'
-import codepen from '../../assets/images/codepen.svg'
-import youtube from '../../assets/images/youtube.svg'
+import Icon from './Subcomponents/Icon'
 
 const Social = () => {
 	return (
 		<div className="social">
 			<div className="container">
 				<div className="icon-wrapper">
-					<img src={linkedin} alt="linkedin"/>
-					<img src={github} alt="github"/>
-					<img src={codepen} alt="codepen"/>
-					<img src={youtube} alt="youtube"/>
+					<Icon name="linkedin" className="linkedin"/>
+					<Icon name="github" className="github"/>
+					<Icon name="codepen" className="codepen"/>
+					<Icon name="youtube" className="youtube"/>
 				</div>
 			</div>
 		</div>

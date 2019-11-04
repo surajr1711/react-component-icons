@@ -2,13 +2,21 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	img {
-		width: 2rem;
-		height: 2rem;
-		margin: 1rem;
-	}
-	img:hover {
-		fill: red;
-		background: blue;
-	}
+}
+.svg-icon {
+	width: 3rem;
+	margin: 1rem;
+}
+.svg-icon path {
+	transition: 250ms;
+	fill: purple;
+}
+.svg-icon:hover {
+	background: yellow;
+}
+.svg-icon:hover path {
+	fill: blue;
+}
+.svg-icon.youtube:hover path {
+	fill: red;
 }
