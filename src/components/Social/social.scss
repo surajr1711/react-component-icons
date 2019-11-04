@@ -1,0 +1,14 @@
+.icon-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	img {
+		width: 2rem;
+		height: 2rem;
+		margin: 1rem;
+	}
+	img:hover {
+		fill: red;
+		background: blue;
+	}
+}
